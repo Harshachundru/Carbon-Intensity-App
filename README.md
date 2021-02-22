@@ -70,14 +70,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Script files details
+
 The source folder contains on App.js, App.css. Index.js etc.
+
 The App.js was the simple functional component for the carbon intensity app.
+
 The react hooks such as useEffect, useState are used to update and change the state of the json objects which are fetched by async call of an arrow function getCarbonData.
+
 The "getCarbonData" was the function which the controlls the api calls and update the state of "carbonIntensity" array.
+
 While the user input was required to display the carbon intesitydata on specified date.
+
 For fetching user data, the buttons are used and are controlled by "handleClickEvent".
+
 The "handleClickEvent" get the particular "id" of the button which was clicked and assigns the "id-value" to "selected" data-type by "setSelected" method in the react-useState.
+
 The objects are looped to the table roows and colomns by conditional redering and map method.
+
 The object.keys are used to deal with objects in the API's Json data. 
+
 The styles are imported from bootstrap and Navbar was created.
+
 The buttons for user interactivity are placed in a container and jumbotron.Similarly, the output readings are also displayed in bootstrap-container.
